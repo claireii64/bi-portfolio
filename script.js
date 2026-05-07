@@ -1,34 +1,7 @@
-console.log("BI Portfolio Loaded");
+const links = document.querySelectorAll(".nav-links a");
 
-/* SIMPLE SCROLL ANIMATION */
-
-const cards = document.querySelectorAll(
-  ".stats-card, .expertise-card, .project-card"
-);
-
-const observer = new IntersectionObserver((entries) => {
-
-  entries.forEach((entry) => {
-
-    if(entry.isIntersecting){
-
-      entry.target.style.opacity = "1";
-      entry.target.style.transform = "translateY(0px)";
-
-    }
-
-  });
-
-}, {
-  threshold:0.15
-});
-
-cards.forEach((card) => {
-
-  card.style.opacity = "0";
-  card.style.transform = "translateY(40px)";
-  card.style.transition = "all 0.7s ease";
-
-  observer.observe(card);
-
+links.forEach(link => {
+  if (link.href === window.location.href) {
+    link.classList.add("active");
+  }
 });
