@@ -147,7 +147,7 @@ section{
 ========================= */
 
 .hero-editorial{
-  padding:120px 0;
+  padding:120px 5%;
 }
 
 .hero-frame{
@@ -165,7 +165,6 @@ section{
   overflow:hidden;
   border:1px solid rgba(0,0,0,0.06);
   background:#f5f7ff;
-  padding-left: 50px;
 }
 
 .hero-image img{
