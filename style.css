@@ -142,10 +142,6 @@ section{
   background:var(--soft2);
 }
 
-/* =========================
-   HERO EDITORIAL (FIXED LAYOUT)
-========================= */
-
 .hero-editorial{
   padding:120px 5%;
 }
@@ -157,7 +153,6 @@ section{
   align-items:center;
 }
 
-/* IMAGE FIX (THIS SOLVES YOUR ISSUE) */
 .hero-image{
   width:100%;
   height:700px;
