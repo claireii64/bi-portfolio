@@ -15,11 +15,20 @@
   font-family:Inter, system-ui;
 }
 
+html{
+  scroll-behavior:smooth;
+}
+
 body{
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+/* body{
   background:var(--bg);
   color:var(--text);
   line-height:1.6;
-}
+} */
 
 /* CONTAINER */
 .container{
