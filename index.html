@@ -1,386 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>KC Phodaca | BI Portfolio</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
+  <title>BI Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  <!-- NAVIGATION -->
+<nav class="navbar">
+  <div class="container nav-wrapper">
+    <div class="logo">KC<span>Phodaca</span></div>
 
-  <nav class="navbar">
-    <div class="container nav-wrapper">
-
-      <div class="logo">
-        KC<span>Phodaca</span>
-      </div>
-
-      <div class="nav-links">
-        <a href="#home">Home</a>
-        <a href="#expertise">Expertise</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </div>
-
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="expertise.html">Expertise</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <!-- HERO -->   
+<section class="container hero">
 
-  <section class="hero" id="home">
+  <div>
+    <h1>Business Intelligence Associate building data-driven operations systems.</h1>
 
-    <div class="container hero-grid">
+    <p>
+      I design reporting systems, automate workflows, and build operational dashboards for eCommerce environments.
+    </p>
 
-      <div class="hero-left">
+    <a class="btn" href="projects.html">View Work</a>
+  </div>
 
-        <div class="badge">
-          Business Intelligence • eCommerce Operations
-        </div>
+  <div class="visual"></div>
 
-        <h1>
-          Supporting <span>data-driven</span> operations through reporting & automation.
-        </h1>
+</section>
 
-        <h2>
-          KC Phodaca — Business Intelligence Associate
-        </h2>
+<!-- SECTION 2 -->
+<section class="soft">
+  <div class="container">
+    <h2>What I Do</h2>
+    <p>BI reporting, automation, dashboards, and process optimization.</p>
 
-        <p>
-          Supporting data-driven operations through reporting, dashboard development, workflow automation, and process optimization within eCommerce environments.
-        </p>
-
-        <div class="hero-buttons">
-          <a href="#projects" class="btn btn-primary">
-            View Projects
-          </a>
-
-          <a href="#" class="btn btn-outline">
-            Dashboard Showcase
-          </a>
-
-          <a href="#" class="btn btn-outline">
-            Download Resume
-          </a>
-        </div>
-
-      </div>
-
-      <!-- DASHBOARD MOCKUP -->
-
-      <div class="dashboard">
-
-        <div class="dashboard-top">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-
-        <div class="dashboard-grid">
-
-          <div class="dashboard-card">
-
-            <div class="card-title">
-              KPI Visibility
-            </div>
-
-            <div class="chart">
-
-              <div class="bar" style="height:45%;"></div>
-              <div class="bar" style="height:70%;"></div>
-              <div class="bar" style="height:90%;"></div>
-              <div class="bar" style="height:65%;"></div>
-              <div class="bar" style="height:100%;"></div>
-
-            </div>
-
-          </div>
-
-          <div class="dashboard-card stat-card-mini">
-
-            <h3>98%</h3>
-
-            <p>
-              Workflow Efficiency
-            </p>
-
-          </div>
-
-        </div>
-
-        <div class="dashboard-small-grid">
-
-          <div class="dashboard-card">
-
-            <h3>5+</h3>
-
-            <p>
-              Operational Dashboards
-            </p>
-
-          </div>
-
-          <div class="dashboard-card">
-
-            <h3>2 mins</h3>
-
-            <p>
-              QA Automation Runtime
-            </p>
-
-          </div>
-
-        </div>
-
-      </div>
-
+    <div class="grid">
+      <div class="card">Reporting Systems</div>
+      <div class="card">Automation (Apps Script)</div>
+      <div class="card">eCommerce Analytics</div>
     </div>
+  </div>
+</section>
 
-  </section>
-
-  <!-- QUICK STATS -->
-
-  <section class="section">
-
-    <div class="container">
-
-      <div class="section-heading">
-
-        <span>Quick Stats</span>
-
-        <h2>
-          Reporting & automation experience.
-        </h2>
-
-      </div>
-
-      <div class="stats-grid">
-
-        <div class="stats-card">
-          <h3>5+</h3>
-
-          <p>
-            Built reporting dashboards for operational KPI visibility.
-          </p>
-        </div>
-
-        <div class="stats-card">
-          <h3>Automation</h3>
-
-          <p>
-            Automated repetitive reporting workflows using Apps Script.
-          </p>
-        </div>
-
-        <div class="stats-card">
-          <h3>eCommerce</h3>
-
-          <p>
-            Supported Shopify and Google Sheets reporting operations.
-          </p>
-        </div>
-
-        <div class="stats-card">
-          <h3>Optimization</h3>
-
-          <p>
-            Improved workflow efficiency through documentation solutions.
-          </p>
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- EXPERTISE -->
-
-  <section class="section" id="expertise">
-
-    <div class="container">
-
-      <div class="section-heading">
-
-        <span>Core Expertise</span>
-
-        <h2>
-          Business intelligence & operational support.
-        </h2>
-
-      </div>
-
-      <div class="expertise-grid">
-
-        <div class="expertise-card">
-
-          <h3>Reporting & Analytics</h3>
-
-          <div class="tags">
-            <span>KPI Monitoring</span>
-            <span>Operational Reporting</span>
-            <span>Dashboard Development</span>
-            <span>Data Analysis</span>
-          </div>
-
-        </div>
-
-        <div class="expertise-card">
-
-          <h3>Dashboard Development</h3>
-
-          <div class="tags">
-            <span>Google Sheets</span>
-            <span>COD Monitoring</span>
-            <span>Sales Reporting</span>
-            <span>Performance Tracking</span>
-          </div>
-
-        </div>
-
-        <div class="expertise-card">
-
-          <h3>Automation</h3>
-
-          <div class="tags">
-            <span>Google Apps Script</span>
-            <span>Workflow Automation</span>
-            <span>Spreadsheet Automation</span>
-            <span>Report Generation</span>
-          </div>
-
-        </div>
-
-        <div class="expertise-card">
-
-          <h3>Process Improvement</h3>
-
-          <div class="tags">
-            <span>Process Mapping</span>
-            <span>Documentation</span>
-            <span>Knowledge Base</span>
-            <span>Workflow Optimization</span>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- PROJECTS -->
-
-  <section class="section" id="projects">
-
-    <div class="container">
-
-      <div class="section-heading">
-
-        <span>Featured Projects</span>
-
-        <h2>
-          Reporting & automation initiatives.
-        </h2>
-
-      </div>
-
-      <div class="projects-grid">
-
-        <div class="project-card">
-
-          <div class="project-label">
-            Operational Reporting
-          </div>
-
-          <h3>
-            COD Operations Dashboard
-          </h3>
-
-          <p>
-            Centralized dashboards for monitoring COD remittance and return-related metrics.
-          </p>
-
-        </div>
-
-        <div class="project-card">
-
-          <div class="project-label">
-            Workflow Automation
-          </div>
-
-          <h3>
-            QA Test Plan Automation
-          </h3>
-
-          <p>
-            Automated repetitive QA test plan preparation workflows using Apps Script.
-          </p>
-
-        </div>
-
-        <div class="project-card">
-
-          <div class="project-label">
-            eCommerce Reporting
-          </div>
-
-          <h3>
-            Shopify Sales Reporting
-          </h3>
-
-          <p>
-            Created operational sales dashboards using Shopify export data.
-          </p>
-
-        </div>
-
-        <div class="project-card">
-
-          <div class="project-label">
-            Documentation Portal
-          </div>
-
-          <h3>
-            BI Knowledgebase Portal
-          </h3>
-
-          <p>
-            Developed a centralized documentation and reporting reference system.
-          </p>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- FOOTER -->
-
-  <footer id="contact">
-
-    <div class="container">
-
-      <p>
-        © 2026 KC Phodaca • Business Intelligence Portfolio
-      </p>
-
-    </div>
-
-  </footer>
-
-  <script src="script.js"></script>
+<footer>© 2026 BI Portfolio</footer>
 
 </body>
 </html>
