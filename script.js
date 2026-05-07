@@ -1,7 +1,11 @@
-const links = document.querySelectorAll(".nav-links a");
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    }
+  });
+});
 
-links.forEach(link => {
-  if (link.href === window.location.href) {
-    link.classList.add("active");
-  }
+document.querySelectorAll(".reveal").forEach(el => {
+  observer.observe(el);
 });
