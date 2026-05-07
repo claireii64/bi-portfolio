@@ -172,6 +172,7 @@ section{
   height:100%;
   object-fit:cover;
   display:block;
+  padding-left:30px;
 }
 
 /* RIGHT CONTENT */
@@ -179,7 +180,6 @@ section{
   display:flex;
   flex-direction:column;
   gap:12px;
-  padding-left:30px;
 }
 
 .hero-kicker{
