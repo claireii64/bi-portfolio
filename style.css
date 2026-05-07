@@ -142,33 +142,36 @@ p{
 }
 
 /* PROJECT LIST STYLE (editorial) */
-.project{
+.projects{
+  margin-top:20px;
+}
+
+.project-item{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding:26px 0;
-  border-bottom:1px solid var(--line);
-  transition:0.3s ease;
+  padding:24px 0;
+  border-bottom:1px solid rgba(0,0,0,0.08);
+  transition:0.25s ease;
 }
 
-.project:hover{
+.project-item:hover{
+  background:rgba(47,107,255,0.04);
   padding-left:10px;
-  background:rgba(47,107,255,0.03);
 }
 
-.project strong{
+.project-item h3{
+  margin:0;
   font-size:1.1rem;
-  display:block;
-  margin-bottom:6px;
 }
 
-.project span{
-  color:var(--muted);
-  font-size:0.95rem;
+.project-item p{
+  margin-top:6px;
+  color:#5b6475;
 }
 
-.project a{
+.project-item a{
+  color:#2f6bff;
   text-decoration:none;
-  color:var(--blue);
   font-weight:600;
 }
